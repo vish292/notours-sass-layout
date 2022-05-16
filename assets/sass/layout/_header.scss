@@ -11,8 +11,8 @@
 }
 .logo-box{
     position: absolute;
-    top:40px;
-    left:40px;
+    top:4rem;
+    left:4rem;
     .logo{
         height:35px;
     }
@@ -29,15 +29,15 @@
 .heading-primary{
     color:#fff;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 6rem;
     
     
     &-main{
         display:block;
-        font-size: 60px;
-        letter-spacing: 35px;
+        font-size: 6rem;
+        letter-spacing: 3.5rem;
         font-weight: 400;
-        margin-bottom: 30px;
+        margin-bottom: 3rem;
         // animation-name: moveInLeft;
         // animation-duration: 3s;
         // animation-timing-function: ease-in-out;
@@ -46,9 +46,9 @@
     }
     &-sub{
         display:block;
-        font-size: 20px;
+        font-size: 2rem;
         font-weight: 400;
-        letter-spacing: 17px;
+        letter-spacing: 1.7rem;
         animation: moveinright 1s ease-in-out forwards;
 
     }

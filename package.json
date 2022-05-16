@@ -217,7 +217,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "compile:sass":"node-sass assets/sass/main.css assets/css/main.css"
+    "compile:sass":"node-sass assets/sass/main.scss assets/css/main.css"
   },
   "author": "vish",
   "license": "ISC"
