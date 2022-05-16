@@ -217,7 +217,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass":"node-sass assets/sass/main.css assets/css/main.css"
   },
   "author": "vish",
   "license": "ISC"
