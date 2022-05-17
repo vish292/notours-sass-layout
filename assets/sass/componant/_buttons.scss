@@ -45,3 +45,24 @@
     }
     
 }
+.btn-text{
+    &:link,
+    &:visited{
+        color:$color-primary;
+        display:inline-block;
+        text-decoration: none;
+        border-bottom: .1rem solid $color-primary;
+        padding: .3rem;
+        transition: all 0.2s ease-in-out;
+    }
+    &:hover,&:focus{
+        color:$color-white;
+        background-color:$color-primary;
+        box-shadow: 0 1rem 2rem rgba($color-dark,.15);
+        transform: translateY(-2px);
+    }
+    &:active{
+        box-shadow: 0 1rem 1rem rgba($color-dark,.15);
+        transform: translateY(0);
+    }
+}
